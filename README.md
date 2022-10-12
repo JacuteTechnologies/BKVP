@@ -7,7 +7,7 @@ How to use the library:
 
 . At the top of your PHP file, "require 'path/to/BKVPlib.php';"
 
-. To make sure that the library is incldued correctly, you can run "echo checkLib();", this will return "Working." if you installed it correctly. 
+. To make sure that the library is included correctly, you can run "echo checkLib();", this will return "Working." if you installed it correctly. 
 
 . To read a value from a key in a BKVP file, use readBKVP("path/to/file", "keyname");
 

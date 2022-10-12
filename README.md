@@ -5,12 +5,12 @@ What is BKVP: BaseKeyValuePairs. It's like JSON, with key value pairs, but there
 
 How to use the library:
 
-. At the top of your PHP file, "require 'path/to/BKVPlib.php';"
+At the top of your PHP file, "require 'path/to/BKVPlib.php';"
 
-. To make sure that the library is included correctly, you can run "echo checkLib();", this will return "Working." if you installed it correctly. 
+To make sure that the library is included correctly, you can run "echo checkLib();", this will write out "Working." if you installed it correctly. 
 
-. To read a value from a key in a BKVP file, use readBKVP("path/to/file", "keyname");
+To read a value from a key in a BKVP file, use readBKVP("path/to/file", "keyname");
 
-. To write an existing value in a BKVP file, use writeBKVP("path/to/file", "keyname", "datatowrite", false);
+To write an existing value in a BKVP file, use writeBKVP("path/to/file", "keyname", "datatowrite", false);
 
-. To write a new key to a BKVP file, use writeBKVP("path/to/file", "keyname", "datatowrite", true);
+To write a new key to a BKVP file, use writeBKVP("path/to/file", "keyname", "datatowrite", true);
